@@ -1,0 +1,17 @@
+{
+  "name": "Flask SQLite Todo",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/sqlite:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "alexcvzz.vscode-sqlite"   // SQLite extension for VS Code
+      ]
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
