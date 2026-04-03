@@ -1,0 +1,5 @@
+flask
+flask-cors
+openpyxl
+pyodbc
+sqlite3-binary
